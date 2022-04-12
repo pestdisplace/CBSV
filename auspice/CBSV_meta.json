@@ -1,0 +1,252 @@
+{
+  "annotations": {
+    "CBSV_gp1": {
+      "end": 8864,
+      "start": 125,
+      "strand": 1
+    },
+    "CBSV_gp2": {
+      "end": 1834,
+      "start": 1600,
+      "strand": 1
+    },
+    "nuc": {
+      "end": 8995,
+      "start": 0,
+      "strand": 1
+    }
+  },
+  "author_info": {},
+  "color_options": {
+    "country": {
+      "color_map": [
+        [
+          "uganda",
+          "#4928B4"
+        ],
+        [
+          "tanzania",
+          "#4379CD"
+        ],
+        [
+          "mozambique",
+          "#5CA7A4"
+        ],
+        [
+          "comoros",
+          "#A4BE56"
+        ],
+        [
+          "mayotte",
+          "#DC2F24"
+        ],
+        [
+          "malawi",
+          "#CCB742"
+        ]
+      ],
+      "key": "country",
+      "legendTitle": "country",
+      "menuItem": "country",
+      "type": "discrete"
+    },
+    "location": {
+      "color_map": [
+        [
+          "uganda",
+          "#4334BF"
+        ],
+        [
+          "nkokojeru",
+          "#3F50CC"
+        ],
+        [
+          "nampula",
+          "#416CCE"
+        ],
+        [
+          "kagera_region",
+          "#4784C7"
+        ],
+        [
+          "grande_comore",
+          "#5098B9"
+        ],
+        [
+          "naliendele",
+          "#5CA7A4"
+        ],
+        [
+          "korogwe",
+          "#6BB18E"
+        ],
+        [
+          "namcurra",
+          "#7CB878"
+        ],
+        [
+          "mlandizi",
+          "#A4BE56"
+        ],
+        [
+          "kiobakari",
+          "#B9BC4A"
+        ],
+        [
+          "dembeni",
+          "#CCB742"
+        ],
+        [
+          "nkhatabay_district",
+          "#0000FF"
+        ],
+        [
+          "mikocheni",
+          "#E39B39"
+        ],
+        [
+          "tanzania",
+          "#E68234"
+        ],
+        [
+          "kabanyoro",
+          "#DF4027"
+        ],
+        [
+          "namulonge",
+          "#511EA8"
+        ]
+      ],
+      "key": "location",
+      "legendTitle": "location",
+      "menuItem": "location",
+      "type": "discrete"
+    },
+    "num_date": {
+      "key": "num_date",
+      "legendTitle": "Sampling date",
+      "menuItem": "date",
+      "type": "continuous"
+    },
+    "virus": {
+      "key": "virus",
+      "legendTitle": "virus",
+      "menuItem": "virus",
+      "type": "discrete"
+    }
+  },
+  "defaults": {
+    "mapTriplicate": true
+  },
+  "filters": [
+    "country",
+    "location",
+    "virus"
+  ],
+  "geo": {
+    "country": {
+      "comoros": {
+        "latitude": -11.726996,
+        "longitude": 43.324206
+      },
+      "malawi": {
+        "latitude": -11.706171,
+        "longitude": 34.021618
+      },
+      "mayotte": {
+        "latitude": -12.842689,
+        "longitude": 45.186372
+      },
+      "mozambique": {
+        "latitude": -15.128466,
+        "longitude": 39.270749
+      },
+      "tanzania": {
+        "latitude": -6.757466,
+        "longitude": 39.241979
+      },
+      "uganda": {
+        "latitude": 0.330597,
+        "longitude": 32.655595
+      }
+    },
+    "location": {
+      "dembeni": {
+        "latitude": -12.842689,
+        "longitude": 45.186372
+      },
+      "grande_comore": {
+        "latitude": -11.726996,
+        "longitude": 43.324206
+      },
+      "kabanyoro": {
+        "latitude": 0.469419,
+        "longitude": 32.607645
+      },
+      "kagera_region": {
+        "latitude": -1.526399263,
+        "longitude": 31.44476718
+      },
+      "kiobakari": {
+        "latitude": -1.767873361,
+        "longitude": 33.85135436
+      },
+      "korogwe": {
+        "latitude": -5.158504,
+        "longitude": 38.456677
+      },
+      "mikocheni": {
+        "latitude": -6.757466,
+        "longitude": 39.241979
+      },
+      "mlandizi": {
+        "latitude": -6.718398,
+        "longitude": 38.740068
+      },
+      "naliendele": {
+        "latitude": -10.346861,
+        "longitude": 40.149606
+      },
+      "namcurra": {
+        "latitude": -17.49611,
+        "longitude": 37.031329
+      },
+      "nampula": {
+        "latitude": -15.128466,
+        "longitude": 39.270749
+      },
+      "namulonge": {
+        "latitude": 0.533309,
+        "longitude": 32.616817
+      },
+      "nkhatabay_district": {
+        "latitude": -11.706171,
+        "longitude": 34.021618
+      },
+      "nkokojeru": {
+        "latitude": 0.249620764,
+        "longitude": 32.91094206
+      },
+      "tanzania": {
+        "latitude": -6.23552,
+        "longitude": 35.678875
+      },
+      "uganda": {
+        "latitude": 0.330597,
+        "longitude": 32.655595
+      }
+    }
+  },
+  "maintainer": [
+    "PestDisPlace",
+    "https://pestdisplace.org/"
+  ],
+  "panels": [
+    "tree",
+    "map",
+    "entropy"
+  ],
+  "title": "Real-time tracking of cassava brown streak disease",
+  "updated": "12 Apr 2022",
+  "virus_count": 20
+}
